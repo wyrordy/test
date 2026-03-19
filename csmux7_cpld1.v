@@ -2145,5 +2145,5 @@ module  csmux7_cpld1(
 	assign main1_panel_detec = main_present? main_present : ~ another_main_present;
 	assign main2_panel_detec = ~ main_present? ~ main_present : ~ another_main_present;
 	
-
+    //²âÊÔÓÃ×¢ÊÍ
 endmodule
